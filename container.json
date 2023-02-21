@@ -1,0 +1,30 @@
+[
+    {"name" : "div",
+    "container" : "box",
+    "style" : {
+        "width": "350px",
+        "heigth": "100px",
+        "border-radius" : "15px",
+        "backgound-color": "#252424",
+        "margin-top": "1rem",
+        "padding": "1rem"
+    }
+},{
+    "name" : "a",
+    "container" : "link",
+    "style" : {
+        "border-radius" : "15px",
+        "backgound-color": "#252424",
+        "padding": "1rem"
+    }
+},{
+    "name" : "b",
+    "container" : "bolder"
+},{  
+    "name": "p",
+    "container": "paragraph"
+},{
+    "name": "span",
+    "container": "span"
+}
+]

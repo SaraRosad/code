@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+search{
+    z-index: 2;
+    position: relative;
+    top:0;
+}
+
+#set-code i:hover{
+    color: rgb(6, 170, 175);   
+    cursor: pointer;
+}
+
+#set-code i{
+    color: rgb(155, 155, 155); 
+}
+#clean-code i:hover{
+    color: rgb(175, 6, 6);   
+    cursor: pointer;
+}
+#clean-code i{
+    color: rgb(155, 155, 155); 
+}
+
+.code-option{
+    position: relative;
+    display: block;
+    background-color: rgb(39, 38, 38);
+    border-radius: 20px;
+    width: 100%;
+    height: 60vh;
+}
+
+.code-option search{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(30px);
+}
+
+.text-code{
+    display: block;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    width: 98vh;
+    background-color: rgb(49, 49, 49);
+    height: 50vh;
+    padding: 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    overflow-y: scroll;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.data-code{
+    position: relative;
+    width: 100%;
+}
+
+.data-code #set-code {
+    position: absolute;
+    right: 58px;
+    top: 86px;
+    transform: translateY(50%);
+    z-index: 2;
+}
+.data-code #clean-code {
+    position: absolute;
+    right: 58px;
+    top: 50px;
+    transform: translateY(50%);
+    z-index: 2;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dropdwon_list{
+    margin-top: 3rem;
+    height: 271px;
+    overflow-y: scroll;
+}
+
+.dropdwon_list li{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 700;
+}
+
+input{
+    border: 0;
+    outline-style: none;
+    outline: 0;
+    border-radius: 99px;
+    padding: 0.4rem 1rem;
+    width: 93vh;
+    margin: 1rem 0;
+}
+.dropdwon_list .dropdown-item{
+     background-color: none;
+     font-size: 14px;
+     padding-left: 1rem;
+}
+.dropdwon_list .dropdown-item:hover{
+    background: #03fdfd;
+    cursor: pointer;
+    color: blue;
+}
+
+.model{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #252424;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    margin-bottom: 0;
+}
+.container-dropdown{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.option-tag{
+    margin: 2px;
+}
+.dropdown-item{
+    color: white;
+}
+.hidden{
+    display: none;
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+    height: 68px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:  #060000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo i{
+    color: red;
+    font-size: larger;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 40, 42);
+}
+
+code{
+    color: white;
+    margin-left: 0.6rem;
+    font-size: x-large;
+}
+
+code span{
+    color: red;
+    font-size: x-large;
+}
+
+.list-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-items ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items ul li{
+    display: flex;
+    margin: auto;
+    color: white;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    /* border: 3px solid #03fd63; */
+}
+.image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding: 1rem;
+}
+
+.item:hover{
+    border-bottom: 3px solid red;
+    cursor: pointer;
+}
+.item a{
+    color: azure;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}

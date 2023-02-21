@@ -1,0 +1,360 @@
+[
+   { 
+    "name": "br",
+    "open_tag" : "<br>",
+    "description": "T"
+    },
+    {
+        "name": "hr",
+        "open_tag" : "<hr class=>",
+        "close_tag" : "</hr>"
+    },
+    {
+        "name" : "title",
+        "open_tag": "<title class=>",
+        "close_tag": "</title>"
+    },
+    {
+        "name" : "link",
+        "open_tag": "<link class=>",
+        "close_tag": "</link>"
+    },
+    {
+        "name" : "meta",
+        "open_tag": "<meta class=>"
+    },
+    {
+        "name" : "style",
+        "open_tag": "<style>",
+        "close_tag": "</style>",
+        "attributes" : "class="
+    },
+    {
+        "name" : "p",
+        "open_tag": "<p class=>",
+        "close_tag": "</p>"
+    },
+    {
+        "name" : "h1",
+        "open_tag": "<h1 class=>",
+        "close_tag": "</h1>"
+    },
+    {
+        "name" : "h2",
+        "open_tag": "<h2 class=>",
+        "close_tag": "</h2>"
+    },
+    {
+        "name" : "h3",
+        "open_tag": "<h3 class=>",
+        "close_tag": "</h3>"
+    },
+    {
+        "name" : "h4",
+        "open_tag": "<h4 class=>",
+        "close_tag": "</h4>"
+    },
+    {
+        "name" : "h5",
+        "open_tag": "<h5 class=>",
+        "close_tag": "</h5>"
+    },
+    {
+        "name" : "h6",
+        "open_tag": "<h6 class=>",
+        "close_tag": "</h6>"
+    },
+    {
+        "name" : "strong",
+        "open_tag": "<strong class=>",
+        "close_tag": "</strong>"
+    },
+    {
+        "name" : "em",
+        "open_tag": "<em class=>",
+        "close_tag": "</em>"
+    },
+    {
+        "name" : "abbr",
+        "open_tag": "<abbr class=>",
+        "close_tag": "</abbr>"
+    },
+    {
+        "name" : "acronym",
+        "open_tag": "<acronym class=>",
+        "close_tag": "</acronym>"
+    },
+    {
+        "name" : "address",
+        "open_tag": "<address class=>",
+        "close_tag": "</address>"
+    },
+    {
+        "name" : "bdo",
+        "open_tag": "<bdo class=>",
+        "close_tag": "</bdo>"
+    },
+    {
+        "name" : "blockquote",
+        "open_tag": "<blockquote class=>",
+        "close_tag": "</blockquote>"
+    },
+    {
+        "name" : "cite",
+        "open_tag": "<cite class=>",
+        "close_tag": "</cite>"
+    },
+    {
+        "name" : "q",
+        "open_tag": "<q class=>",
+        "close_tag": "</q>"
+    },
+    {
+        "name" : "code",
+        "open_tag": "<code class=>",
+        "close_tag": "</code>"
+    },
+    {
+        "name" : "ins",
+        "open_tag": "<ins class=>",
+        "close_tag": "</ins>"
+    },
+    {
+        "name" : "del",
+        "open_tag": "<del class=>",
+        "close_tag": "</del>"
+    },
+    {
+        "name" : "dfn",
+        "open_tag": "<dfn class=>",
+        "close_tag": "</dfn>"
+    },
+    {
+        "name" : "kbd",
+        "open_tag": "<kbd class=>",
+        "close_tag": "</kbd>"
+    },
+    {
+        "name" : "pre",
+        "open_tag": "<pre class=>",
+        "close_tag": "</pre>"
+    },
+    {
+        "name" : "samp",
+        "open_tag": "<samp class=>",
+        "close_tag": "</samp>"
+    },
+    {
+        "name" : "var",
+        "open_tag": "<var class=>",
+        "close_tag": "</var>"
+    },
+    {
+        "name" : "a",
+        "open_tag": "<a class=>",
+        "close_tag": "</a>",
+        "description": ""
+    },
+    {
+        "name" : "base",
+        "open_tag": "<base class=>",
+        "close_tag": "</base>"
+    },
+    {
+        "name" : "img",
+        "open_tag": "<img class=>",
+        "close_tag": "</img>"
+    },
+    {
+        "name" : "area",
+        "open_tag": "<area class=>",
+        "close_tag": "</area>"
+    },
+    {
+        "name" : "map",
+        "open_tag": "<map class=>",
+        "close_tag": "</map>"
+    },
+    {
+        "name" : "param",
+        "open_tag": "<param class=>",
+        "close_tag": "</param>"
+    },
+    {
+        "name" : "object",
+        "open_tag": "<object class=>",
+        "close_tag": "</object>"
+    },
+    {
+        "name" : "ul",
+        "open_tag": "<ul class=>",
+        "close_tag": "</ul>"
+    },
+    {
+        "name" : "ol",
+        "open_tag": "<ol class=>",
+        "close_tag": "</ol>"
+    },
+    {
+        "name" : "li",
+        "open_tag": "<li class=>",
+        "close_tag": "</li>"
+    },
+    {
+        "name" : "dl",
+        "open_tag": "<dl class=>",
+        "close_tag": "</dl>"
+    },
+    {
+        "name" : "dt",
+        "open_tag": "<dt class=>",
+        "close_tag": "</dt>"
+    },
+    {
+        "name" : "dd",
+        "open_tag": "<dd class=>",
+        "close_tag": "</dd>"
+    },
+    {
+        "name" : "table",
+        "open_tag": "<table class=>",
+        "close_tag": "</table>"
+    },
+    {
+        "name" : "tr",
+        "open_tag": "<tr class=>",
+        "close_tag": "</tr>"
+    },
+    {
+        "name" : "td",
+        "open_tag": "<td class=>",
+        "close_tag": "</td>"
+    },
+    {
+        "name" : "th",
+        "open_tag": "<th class=>",
+        "close_tag": "</th>"
+    },
+    {
+        "name" : "tbody",
+        "open_tag": "<tbody class=>",
+        "close_tag": "</tbody>"
+    },
+    {
+        "name" : "thead",
+        "open_tag": "<thead class=>",
+        "close_tag": "</thead>"
+    },
+    {
+        "name" : "tfoot",
+        "open_tag": "<tfoot class=>",
+        "close_tag": "</tfoot>"
+    },
+    {
+        "name" : "col",
+        "open_tag": "<col class=>",
+        "close_tag": "</col>"
+    },
+    {
+        "name" : "colgroup",
+        "open_tag": "<colgroup class=>",
+        "close_tag": "</colgroup>"
+    },
+    {
+        "name" : "caption",
+        "open_tag": "<caption class=>",
+        "close_tag": "</caption>"
+    },
+    {
+        "name" : "form",
+        "open_tag": "<form class=>",
+        "close_tag": "</form>"
+    },
+    {
+        "name" : "input",
+        "open_tag": "<input class=>"
+    },
+    {
+        "name" : "textarea",
+        "open_tag": "<textarea class=>",
+        "close_tag": "</textarea>"
+    },
+    {
+        "name" : "select",
+        "open_tag": "<select class=>",
+        "close_tag": "</select>"
+    },
+    {
+        "name" : "option",
+        "open_tag": "<option class=>",
+        "close_tag": "</option>"
+    },
+    {
+        "name" : "optgroup",
+        "open_tag": "<optgroup class=>",
+        "close_tag": "</optgroup>"
+    },
+    {
+        "name" : "button",
+        "open_tag": "<button class=>",
+        "close_tag": "</button>"
+    },
+    {
+        "name" : "label",
+        "open_tag": "<label class=>",
+        "close_tag": "</label>"
+    },
+    {
+        "name" : "fieldset",
+        "open_tag": "<fieldset class=>",
+        "close_tag": "</fieldset>"
+    },
+    {
+        "name" : "legend",
+        "open_tag": "<legend class=>",
+        "close_tag": "</legend>"
+    },
+    {
+        "name" : "script",
+        "open_tag": "<script class=>",
+        "close_tag": "</script>"
+    },
+    {
+        "name" : "noscript",
+        "open_tag": "<noscript class=>",
+        "close_tag": "</noscript>"
+    },
+    {
+        "name": "audio",
+        "open_tag" : "<audio class=>",
+        "close_tag" : "</audio>"
+    },{
+        "name": "basefont",
+        "open_tag" : "<basefont class=>",
+        "close_tag" : "</basefont>"
+    },{
+        "name": "canvas",
+        "open_tag" : "<canvas class=>",
+        "close_tag" : "</canvas>"
+    },{
+        "name": "center",
+        "open_tag" : "<center class=>",
+        "close_tag" : "</center>",
+        "description":"It is used to align content in center. (not supported in HTML5)"
+    },{
+        "name": "dialog",
+        "open_tag" : "<dialog class=>",
+        "close_tag" : "</dialog>",
+        "description":"It defines a dialog box or other interactive components"
+    },{
+        "name": "big",
+        "open_tag" : "<big class=>",
+        "close_tag" : "</big>",
+        "description":"This tag is used to make font size one level larger than its sorrounding content. (not supported in HTML5)"
+    },{
+        "name": "source",
+        "open_tag" : "<source class=>",
+        "close_tag" : "</source>",
+        "description":"This tag is used to make font size one level larger than its sorrounding content. (not supported in HTML5)"
+    }
+]
